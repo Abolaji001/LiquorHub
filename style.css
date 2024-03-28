@@ -1,0 +1,129 @@
+body{
+    background-color: blanchedalmond;
+    padding: 1 ba0px;
+   Background-image: url(/images/diego-ph-fIq0tET6llw-unsplash.jpg);
+    background-size: cover;
+
+}
+
+.heading {
+    color: red;
+}
+.sub {
+color: blue;
+}
+.group {
+    color: brown;
+}
+.box {
+    border: "50px";
+    border-color: blue;
+    border-width: "50px";
+    padding: auto;
+    border-radius: 5px;
+}
+.slogan {
+    color: blue;
+}
+.divider {
+    color: red;
+    text-decoration: solid;
+    font-weight: bold;
+    font-style: italic;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.box2{
+    border-color: brown;
+    border-width: thick;
+    border-style: double;
+    display: flex;
+}
+.hello{
+    color: blueviolet;
+    background-color: brown;
+}
+table{
+    width:100% ;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid #ddd;
+}
+td {
+    background-color: #f2f2f2;
+}
+thead{background-color: antiquewhite;}
+
+.Submit-btn{
+    color: brown;
+    background-color: burlywood;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.username-btn{
+    padding-bottom: 10px;
+}
+.user{
+    margin-bottom: 10px;
+}
+.gender{
+    margin-bottom: 10px;
+}
+.pass{
+    margin-bottom: 10px;
+}
+.country{
+    margin-bottom: 10px;
+}
+.state{
+    margin-bottom:10px ;
+}
+.birthdate{
+    margin-bottom:10px ;
+}
+.submit{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.submitbtn{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: blue;
+    color: #ddd;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; }
+    nav li {
+    display: inline; }
+    nav a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none; }
+    @media screen and (max-width: 600px) {
+    nav ul {
+    display: flex;
+    flex-direction: column; }
+    nav li {
+    display: block; }
+    }
+    nav a:hover {
+        background-color: #555;
+        }
+        nav a:active {
+        background-color: #777;
+        }
+

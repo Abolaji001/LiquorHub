@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        border-radius: border-box;
+        transition: 0.2s linear;
+      }
+      body {
+        margin: 0px;
+        font-family: Arial;
+      }
+      .heading {
+        text-align: center;
+        padding: 32px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      .column {
+        flex: 25%;
+        max-width: 25%;
+      }
+
+      .card {
+        margin: 1em;
+      }
+      .card p {
+        text-align: left;
+      }
+      .column button {
+        background-color: brown;
+        color: white;
+        padding: 0.2em 1em 0.2em 1em;
+        position: relative;
+        top: -3em;
+        left: 8em;
+      }
+
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+
+        .column button {
+            padding: 0.5em 1.5em 0.5em 1.5em;
+            position: relative;
+            left: 10em;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+        .column button {
+            position: relative;
+            left: 10em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>NFT Web3 Image Gallery</h1>
+      <em><p>Trade your art in digital world</p></em>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/Images/gellery/1.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/2.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/3.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/4.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="/Images/gellery/1.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/5.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/6.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/7.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="/Images/gellery/1.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/1.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/2.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/3.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="/Images/gellery/1.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/5.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/6.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img src="/Images/gellery/7.jpg" alt="apes" style="width: 100%" />
+            <p>Monkey Apes</p>
+            <p>Price: $500</p>
+            <button>Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

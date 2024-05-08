@@ -1,7 +1,5 @@
 body {
-    /* background-image: url(/Images/background.jpg); */
-    background-size: cover;
-
+    background-color:white;
 }
 /* h1 {
       border-color: orange;
@@ -123,6 +121,8 @@ body {
             }
             .heading{
                text-align: center;
+               /* background-color:bisque; */
+
             }
             .sub{
                text-align: center;
@@ -131,3 +131,19 @@ body {
                width: 100%;
                padding: 10px;
             }
+            
+            .welwrap{
+      text-wrap: wrap;
+            }
+
+            .aboutus{
+               padding-left:200px;
+               padding-right: 200px;
+            }
+/* 
+            .textbox{
+               text-align: center;
+            } */
+
+            /*Flex*/
+            
